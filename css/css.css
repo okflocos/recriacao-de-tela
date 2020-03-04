@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn.btn-primary {
+  background-color: #555;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  
+}
+
+navbar.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid #CCC;
+}
+
+navbar.navbar .logo img {
+  width: 80px;
+}
+
+navbar.navbar .items-list ul{
+  display: flex;
+}
+
+navbar.navbar .items-list ul li {
+  margin: 0 10px;
+}
+
+navbar.navbar .search input {
+  width: 300px;
+  height: 25px;
+}
+navbar.navbar .btn {
+  padding: 10px 30px;
+}
+
+.breadcumb {
+  padding: 10px;
+}
+
+section.home {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #CCC;
+  padding: 10px;
+}
+
+section.home .left-side-home {
+  display: flex;
+}
+
+section.home .left-side-home .text {
+  margin-left: 20px;
+}
+
+
+
+section.home .right-side-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+section.home .right-side-home .btn {
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0px;
+}
+
+section.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+section.content .about {
+  border: 1px solid #ccc;
+  padding: 25px;
+  margin-right: 20px;
+}
+
+section.content .about p,
+section.content .about h2,
+section.content .about ul li {
+  margin-top: 10px;
+}
+
+section.content .about span i{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+
+section.content .information-course {
+  border: 1px solid #ccc;
+  padding: 25px;
+}
+section.content .information-course ul li {
+  padding: 10px 5px;
+  border-bottom: 1px solid #ccc;
+  color: #555;
+}
+
+section.content .information-course ul li i {
+  margin-right: 5px;
+}
+
+
+.container {
+  max-width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
